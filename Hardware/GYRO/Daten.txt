@@ -1,0 +1,43 @@
+Gyro Accelerator Board Examples
+Board: MPU-6050
+Size: 20 mm – 15 mm – Height 3 mm
+Power consumption: 3.9 mA
+Pins: 8
+	VCC = 3.3 – 5 V
+	GND
+	SCL clock line
+	SDA data
+	XDA not relevant
+	ADO address pin not relevant
+	INT Interrupt
+Communication: I²C (400 kHz standard, 1 MHz fast mode), optional SPI (in MPU-6000 variant)
+Sensitivity:
+	Accelerometer: ±2g, ±4g, ±8g, ±16g
+	Gyroscope: ±250, ±500, ±1000, ±2000 °/s
+
+Libarys (only c++ ja)
+	Install: PlatformIO → lib_deps = adafruit/Adafruit MPU6050
+	Adafruit MPU6050 (easy Access to use gyro and accelerator, without DMP that means 	you get only the raw data)
+
+	Jeff Rowberg’s I2Cdevlib + MPU6050 Library
+	Install: GitHub: i2cdevlib/MPU6050
+	DMP Support: Simple sensor fusion directly on the chip
+
+
+
+Link datasheet: https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf?utm_source=chatgpt.com
+
+Why the MPU-6050
+-Low power, 4 mA at operation
+-Small size
+-VS Code libraries
+-Most YouTube videos on how to use it with code examples etc.
+-Already available for testing
+
+Other Boards:
+-ADXL345 is more accurate
+-Extremely low energy usage of 40–140 µA during measurement. In standby it consumes nothing
+-No gyro! Only accelerometer
+
+
+
