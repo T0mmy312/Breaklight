@@ -11,6 +11,7 @@ git push # push changes to branch
 ```
 ### Possible Problems
 
+
 #### merging
 
 For example, if user1 makes a change to `main.cpp`, commits, and pushes it, and another person also changes `main.cpp,` stages the change with `git add`, and then tries to pull, the following error can occur (which is normal and to be expected):
