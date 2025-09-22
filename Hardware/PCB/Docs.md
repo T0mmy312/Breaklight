@@ -30,3 +30,13 @@ Instead of using a dot matrix, a decision has been made to use SMD-LEDs.
   - Operating Current (max): 350 mA  
   - Current Price: **1.11 € / piece**  
   - [Link](https://www.reichelt.at/at/de/shop/produkt/led_smd_3535_rot_19100_mcd_120_-156298?PROVID=2807&utm_source=chatgpt.com)
+
+# LED driver Ic
+
+We need 12 LEDs to make the 12 bars of light so we need a driver Ic to drive and dim all of the Leds.
+
+## Prerequisits
+
+It has to support 12 LEDs all with PWM output and be able to supply enouth mA to drive the LED (>~50mA).
+
+[Possible LED Driver](https://www.mouser.de/ProductDetail/onsemi/NCV7684DQR2G?qs=sGAEpiMZZMviZ1ygyFMr3k0mYgJpFETSUvBmbUobfcF%252BSml7XHBTxg%3D%3D)
