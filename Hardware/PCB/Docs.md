@@ -40,3 +40,9 @@ We need 12 LEDs to make the 12 bars of light so we need a driver Ic to drive and
 It has to support 12 LEDs all with PWM output and be able to supply enouth mA to drive the LED (>~50mA).
 
 [Possible LED Driver](https://www.mouser.de/ProductDetail/onsemi/NCV7684DQR2G?qs=sGAEpiMZZMviZ1ygyFMr3k0mYgJpFETSUvBmbUobfcF%252BSml7XHBTxg%3D%3D)
+
+# MCU
+
+As Stated in Firmware/Docs.md the connections to the i2c devices must use a solder jumper connection so we can deconnect the i2c devices while programming, because of pin collisions.
+
+The MCU allso needs the programming pins to be accessable via jumpers or other.
