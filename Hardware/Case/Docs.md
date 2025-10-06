@@ -1,0 +1,1 @@
+![image](Research/baseCaseDrawing.png)
