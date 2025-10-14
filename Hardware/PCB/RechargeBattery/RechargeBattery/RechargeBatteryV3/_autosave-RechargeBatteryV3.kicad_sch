@@ -2518,6 +2518,12 @@
 		(color 0 0 0 0)
 		(uuid "ed3dcddf-3dab-411b-b61b-7da517f5ff76")
 	)
+	(junction
+		(at 228.6 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f55435e9-6192-4037-abcf-92fa3f6a6870")
+	)
 	(no_connect
 		(at 207.01 105.41)
 		(uuid "370f16d3-8f67-44e4-8341-b8f9d37d9008")
@@ -2686,7 +2692,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 21.59) (xy 217.17 21.59)
+			(xy 217.17 21.59) (xy 228.6 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2736,6 +2742,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 21.59) (xy 228.6 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d8b686-71f5-4331-ba7a-11e44b663e6e")
+	)
+	(wire
+		(pts
 			(xy 231.14 77.47) (xy 229.87 77.47)
 		)
 		(stroke
@@ -2743,6 +2759,16 @@
 			(type default)
 		)
 		(uuid "42303ec1-8a0b-43c8-961e-7cbc2b204a43")
+	)
+	(wire
+		(pts
+			(xy 228.6 21.59) (xy 236.22 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47a0f310-6753-4141-b730-36bb8e349a08")
 	)
 	(wire
 		(pts
@@ -2886,7 +2912,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 82.55) (xy 232.41 82.55)
+			(xy 231.14 82.55) (xy 247.65 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3136,6 +3162,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 35.56) (xy 228.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1a42edb-2263-46a9-9012-9068fa3a3d79")
+	)
+	(wire
+		(pts
 			(xy 229.87 80.01) (xy 231.14 80.01)
 		)
 		(stroke
@@ -3163,6 +3199,16 @@
 			(type default)
 		)
 		(uuid "f56cc02b-a849-414b-b31d-31a32f640246")
+	)
+	(wire
+		(pts
+			(xy 228.6 35.56) (xy 228.6 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7eee4bb-9367-46bd-96e7-5af5999b7b95")
 	)
 	(wire
 		(pts
@@ -3382,7 +3428,7 @@
 	)
 	(hierarchical_label "Output"
 		(shape input)
-		(at 232.41 82.55 0)
+		(at 247.65 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4062,6 +4108,75 @@
 			(project "RechargeBatteryV3"
 				(path "/3c1b30d6-d4e4-4579-9023-d07a7c247741"
 					(reference "Rd")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20b61654-2da2-4274-a50c-ec87ece70ad6")
+		(property "Reference" "C10"
+			(at 228.6 27.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 228.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 229.5652 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 228.6 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f3a145f-54d8-43cd-86f3-5b8131209be8")
+		)
+		(pin "2"
+			(uuid "9e7881dd-9107-4504-99d3-fad9738d3b97")
+		)
+		(instances
+			(project "RechargeBatteryV3"
+				(path "/3c1b30d6-d4e4-4579-9023-d07a7c247741"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -4888,7 +5003,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 219.71 21.59 0)
+		(at 236.22 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4896,7 +5011,7 @@
 		(dnp no)
 		(uuid "7fcef8c5-f37c-4ff6-a5b7-7403cb2e2f74")
 		(property "Reference" "#PWR011"
-			(at 219.71 27.94 0)
+			(at 236.22 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4905,7 +5020,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 222.504 22.098 0)
+			(at 239.014 22.098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +5028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 21.59 0)
+			(at 236.22 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4922,7 +5037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 21.59 0)
+			(at 236.22 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4931,7 +5046,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 21.59 0)
+			(at 236.22 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "custom")(type "KiCad")(uri "${KIPRJMOD}/custom/custom.kicad_sym")(options "")(descr ""))
+  (lib (name "BQ25895MRTWT")(type "KiCad")(uri "${KIPRJMOD}/custom/BQ25895MRTWT.kicad_sym")(options "")(descr ""))
+)
