@@ -1,4 +1,4 @@
-26082059017536642
+26096144654420345
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59954,6 +59954,48 @@ emi filter
 0
 5
 5
+Fooprints
+MOSFET_BSC093N04LSGATMA1
+
+
+0
+5
+5
+Fooprints
+QFN50P150X150X40-8N
+
+
+0
+8
+8
+Fooprints
+QFN50P300X300X100-17N-D
+RGT001
+Integrated Circuit
+0
+17
+17
+Fooprints
+QFN50P400X400X80-25N-D
+RTW (S-PWQFN-N24)
+Integrated Circuit
+0
+25
+25
+Fooprints
+SON50P150X150X80-6N
+
+
+0
+6
+6
+Fooprints
+TRANS_BTS3060TFATMA1
+
+
+0
+3
+3
 Fuse
 FuseHolder_Blade_ATO_Littelfuse_FLR_178.6165
 Littelfuse fuse holder for ATO/FKS blade fuses, 80V, vertical, 20 x 6mm, PCB thickness up to 1.5mm, http://www.littelfuse.com/~/media/commercial-vehicle/datasheets/automotive-fuse-holders/ato/littelfuse-fuse-holder-ato-flr-pcb-datasheet.pdf
@@ -71602,6 +71644,20 @@ threaded screw
 0
 4
 1
+My_Connectors
+NUCLEO-L432KC_Module
+Through hole straight pin header, 1x15, 2.54mm pitch, single row
+Through hole pin header THT 1x15 2.54mm single row
+0
+30
+15
+My_Connectors
+Unbenannt
+
+
+0
+0
+0
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
