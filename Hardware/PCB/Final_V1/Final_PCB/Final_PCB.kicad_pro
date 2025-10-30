@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "RechargeBatteryV3.kicad_pro",
+    "filename": "Final_PCB.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,20 +611,32 @@
   },
   "sheets": [
     [
-      "3c1b30d6-d4e4-4579-9023-d07a7c247741",
+      "3cedac76-cdf6-4427-9720-a412bd9af7e2",
       "Root"
     ],
     [
-      "3056aafc-9894-4b38-9430-168955479e1d",
-      "USB-c"
+      "a2088990-a8d7-4850-b98e-ebf370362bc3",
+      "Gyro"
     ],
     [
-      "6d2ceaae-e433-47c2-aa74-7d6f31ba1d17",
+      "31097afd-7b19-4340-a34a-5b2b647d4078",
+      "Led_Driver"
+    ],
+    [
+      "46e274db-b5db-4871-9e0a-2907fab034b3",
+      "BMS"
+    ],
+    [
+      "3d452921-030a-4adf-89b1-90a9f65ccd40",
       "BQ25895M"
     ],
     [
-      "a5d5ba0d-ded4-4f80-b4d0-9a586439909d",
-      "BMS"
+      "12cb592c-1de0-461a-9b62-a8d4c4aca561",
+      "ATTiny"
+    ],
+    [
+      "7fa25c8a-3b54-4b2c-868c-f0fa5f323168",
+      "USB-c"
     ]
   ],
   "text_variables": {}
