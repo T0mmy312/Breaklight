@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS63000IDRCRQ1'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS63000IDRCRQ1" (!) = "", "TPS63000IDRCRQ1", "Other", "595-TPS63000IDRCRQ1", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS63000IDRCRQ1?qs=i6VRxKQL%2FYw6zzUuY%2FiBvw%3D%3D", "Switching Voltage Regulators Auto Cat 96% Buck- Boost Converter", "https://www.ti.com/lit/gpn/tps63000-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes", "1 mm"
+END_PART
+
+END.

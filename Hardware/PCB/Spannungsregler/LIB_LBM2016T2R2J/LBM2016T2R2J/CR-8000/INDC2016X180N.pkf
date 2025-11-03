@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "INDC2016X180N"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "INDC2016X180N")
+        (spec "default")
+    )
+)

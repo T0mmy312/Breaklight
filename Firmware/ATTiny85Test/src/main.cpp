@@ -1,15 +1,17 @@
 #include <Arduino.h>
 #include <debug.h>
+#include <LEDDriver.h>
 
 int main() {
     init();
 
     BEGIN_DEBUG;
 
-    DB_PRINTLN("TEST!");
+    PCA9955B ledDriver;
     
+    ledDriver.begin(0.0, LEDDriver::ARDUINO_SHIELD);
+
     while (1) {
-        DB_PRINTLN("TEST!");
-        delay(500);
+        ledDriver.pwm(0, 0.5);
     }
 }

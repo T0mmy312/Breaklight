@@ -2479,6 +2479,86 @@
 		)
 		(uuid "fa5b6918-e428-4014-a9dd-5121b3dc3d6b")
 	)
+	(label "BTST"
+		(at 133.35 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1646509c-b00e-42aa-81cc-acdeca4c348e")
+	)
+	(label "PMID"
+		(at 128.27 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "214bee3e-def8-41ea-8119-091e7bc84a3b")
+	)
+	(label "REGN"
+		(at 133.35 43.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24289a9d-2ecd-4e13-9678-7d3077201d91")
+	)
+	(label "REGN"
+		(at 130.81 69.85 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "755ecf2a-e335-4a1c-b473-4e0f0b0110a6")
+	)
+	(label "TS"
+		(at 133.35 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "875867c0-3f34-4f15-bc78-51d2089b13f7")
+	)
+	(label "BTST"
+		(at 135.89 58.42 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac887e90-a2b6-4ae2-bd69-2cbc52ffce93")
+	)
+	(label "TS"
+		(at 133.35 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b2db4ffb-a2e7-47ba-bcb2-7265e512ba07")
+	)
+	(label "PMID"
+		(at 124.46 43.18 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2adaa1c-1fce-4d2b-9883-ec2406b1e383")
+	)
 	(hierarchical_label "VBus"
 		(shape input)
 		(at 69.85 85.09 180)
@@ -2501,8 +2581,8 @@
 		)
 		(uuid "22835608-81ee-4c63-91c4-47848b6832a4")
 	)
-	(hierarchical_label "Output"
-		(shape input)
+	(hierarchical_label "Bat_Voltage"
+		(shape output)
 		(at 163.83 90.17 0)
 		(effects
 			(font
@@ -2523,8 +2603,8 @@
 		)
 		(uuid "4029850b-ec89-4c94-9d33-718a5def8e94")
 	)
-	(hierarchical_label "Output"
-		(shape input)
+	(hierarchical_label "Bat_Voltage"
+		(shape output)
 		(at 111.76 114.3 270)
 		(effects
 			(font
@@ -2545,17 +2625,6 @@
 		)
 		(uuid "4863c195-d21d-415d-90f7-710141514751")
 	)
-	(hierarchical_label "PMID"
-		(shape input)
-		(at 128.27 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "579514c9-4825-4cde-a89b-d12ba97c563d")
-	)
 	(hierarchical_label "BATT+"
 		(shape input)
 		(at 182.88 96.52 180)
@@ -2567,19 +2636,8 @@
 		)
 		(uuid "78b38549-682b-4396-af04-e5530a31b66c")
 	)
-	(hierarchical_label "REGN"
-		(shape input)
-		(at 130.81 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "85af5e29-9b38-46ae-b0f2-8a2093911816")
-	)
-	(hierarchical_label "Output"
-		(shape input)
+	(hierarchical_label "Bat_Voltage"
+		(shape output)
 		(at 148.59 68.58 90)
 		(effects
 			(font
@@ -2600,17 +2658,6 @@
 		)
 		(uuid "9a98ba21-8d1b-4a51-90d0-903e28c00bb8")
 	)
-	(hierarchical_label "BTST"
-		(shape input)
-		(at 135.89 58.42 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "af6e6e9e-6c09-416a-a4f0-a28e5f1260ea")
-	)
 	(hierarchical_label "PACK-"
 		(shape input)
 		(at 160.02 105.41 0)
@@ -2622,17 +2669,6 @@
 		)
 		(uuid "b1a70685-a16b-49db-8b15-4db19f305b7f")
 	)
-	(hierarchical_label "PMID"
-		(shape input)
-		(at 124.46 43.18 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bb63cbb4-6258-45fb-9027-2437673ddaf7")
-	)
 	(hierarchical_label "PACK+"
 		(shape input)
 		(at 160.02 96.52 0)
@@ -2643,50 +2679,6 @@
 			(justify left)
 		)
 		(uuid "cc9160a1-c61d-4448-8dd2-fe2b13d1d81e")
-	)
-	(hierarchical_label "TS"
-		(shape input)
-		(at 133.35 113.03 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cfce0cf0-0338-47fa-8f48-fca93db3b3e1")
-	)
-	(hierarchical_label "TS"
-		(shape input)
-		(at 133.35 143.51 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cfd162d2-71c1-4964-8b5c-51a446925528")
-	)
-	(hierarchical_label "REGN"
-		(shape input)
-		(at 133.35 43.18 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9d10478-cd90-4009-873a-cc4418639e66")
-	)
-	(hierarchical_label "BTST"
-		(shape input)
-		(at 133.35 69.85 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb2c7383-136e-44c6-ad25-00cf8462803b")
 	)
 	(symbol
 		(lib_id "power:GND")
