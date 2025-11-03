@@ -1288,7 +1288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22c3d961-ad36-4345-b5e3-0120b57177ba")
-		(property "Reference" "R1"
+		(property "Reference" "R13"
 			(at 146.05 77.4699 0)
 			(effects
 				(font
@@ -1342,7 +1342,7 @@
 		(instances
 			(project "Spannungsregler"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
-					(reference "R1")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -1364,7 +1364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "235d95bd-4fdc-490c-b68f-add86c44cc3a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0112"
 			(at 107.95 109.22 0)
 			(effects
 				(font
@@ -1414,7 +1414,7 @@
 		(instances
 			(project "Spannungsregler"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
-					(reference "#PWR04")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -1512,7 +1512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7558b243-aadf-40cb-ab81-68a4bbe86e98")
-		(property "Reference" "R2"
+		(property "Reference" "R14"
 			(at 146.05 87.6299 0)
 			(effects
 				(font
@@ -1566,7 +1566,7 @@
 		(instances
 			(project "Spannungsregler"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
-					(reference "R2")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1588,7 +1588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c09622a-0224-4b90-8708-5973a7085301")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0113"
 			(at 127 109.22 0)
 			(effects
 				(font
@@ -1638,7 +1638,7 @@
 		(instances
 			(project "Spannungsregler"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
-					(reference "#PWR02")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -1736,7 +1736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf46a98d-5ab7-4e93-9db9-231ada03c632")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0111"
 			(at 154.94 109.22 0)
 			(effects
 				(font
@@ -1786,7 +1786,7 @@
 		(instances
 			(project "Spannungsregler"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
-					(reference "#PWR05")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -1909,7 +1909,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc7f59aa-e3a7-496f-a148-a6a1a6c320a3")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0115"
 			(at 154.94 76.2 0)
 			(effects
 				(font
@@ -1959,7 +1959,7 @@
 		(instances
 			(project "Spannungsregler"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
-					(reference "#PWR03")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -2057,7 +2057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faa4f01a-2f54-4b06-afd4-8785ba5d70ee")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0114"
 			(at 143.51 109.22 0)
 			(effects
 				(font
@@ -2107,7 +2107,7 @@
 		(instances
 			(project "Spannungsregler"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
-					(reference "#PWR01")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)

@@ -375,7 +375,7 @@
 				(justify right)
 			)
 		)
-		(pin "Batt-" input
+		(pin "BATT-" input
 			(at 161.29 157.48 0)
 			(uuid "377f2044-e253-42fa-b1fb-aeb96763d6e9")
 			(effects

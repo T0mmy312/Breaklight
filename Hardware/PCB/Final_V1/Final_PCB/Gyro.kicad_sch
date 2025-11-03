@@ -1518,7 +1518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22334b04-a3c5-44c1-90d4-489309598521")
-		(property "Reference" "C1"
+		(property "Reference" "C14"
 			(at 125.73 111.7599 0)
 			(effects
 				(font
@@ -1572,7 +1572,7 @@
 		(instances
 			(project "Final_PCB"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/a2088990-a8d7-4850-b98e-ebf370362bc3"
-					(reference "C1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -1654,7 +1654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41c9f2d5-5603-492e-bc52-05434afd9628")
-		(property "Reference" "C2"
+		(property "Reference" "C12"
 			(at 158.75 71.12 90)
 			(effects
 				(font
@@ -1706,7 +1706,7 @@
 		(instances
 			(project "Final_PCB"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/a2088990-a8d7-4850-b98e-ebf370362bc3"
-					(reference "C2")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -2253,7 +2253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9919960-8321-4676-bb9c-2f3bb8513914")
-		(property "Reference" "U1"
+		(property "Reference" "U11"
 			(at 109.22 74.8598 90)
 			(effects
 				(font
@@ -2371,7 +2371,7 @@
 		(instances
 			(project "Final_PCB"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/a2088990-a8d7-4850-b98e-ebf370362bc3"
-					(reference "U1")
+					(reference "U11")
 					(unit 1)
 				)
 			)
