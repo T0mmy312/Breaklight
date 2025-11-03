@@ -856,7 +856,7 @@
 	)
 	(text "Switches"
 		(exclude_from_sim no)
-		(at 205.232 90.17 0)
+		(at 215.392 33.02 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -885,7 +885,7 @@
 		(uuid "485460a4-0d3a-45d9-89a9-f6faf6c2223b")
 	)
 	(junction
-		(at 227.33 64.77)
+		(at 229.87 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "031ec293-66a2-4a51-b3fd-82fe2d04c06b")
@@ -897,13 +897,7 @@
 		(uuid "a338b161-e22e-4146-a93c-27cbb2c82aca")
 	)
 	(junction
-		(at 190.5 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a3f1daf2-2a46-4700-8b0f-bbaa7b7e7cd7")
-	)
-	(junction
-		(at 227.33 81.28)
+		(at 237.49 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db5b862c-c108-4e34-98ac-2c0a0c46d18f")
@@ -918,7 +912,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 81.28) (xy 194.31 81.28)
+			(xy 198.12 24.13) (xy 204.47 24.13)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +922,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 81.28) (xy 234.95 81.28)
+			(xy 237.49 24.13) (xy 245.11 24.13)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +942,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 64.77) (xy 234.95 64.77)
+			(xy 229.87 44.45) (xy 237.49 44.45)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +982,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 53.34) (xy 227.33 57.15)
+			(xy 199.39 44.45) (xy 204.47 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae8e95e-88b1-48f0-b3e0-75ac404cd445")
+	)
+	(wire
+		(pts
+			(xy 229.87 33.02) (xy 229.87 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1025,16 +1029,6 @@
 			(type default)
 		)
 		(uuid "9cbf89a3-461a-41ab-9cc9-4daefb2adc41")
-	)
-	(wire
-		(pts
-			(xy 190.5 64.77) (xy 195.58 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a649bd46-dbba-48ce-8b88-5fbcffe11efc")
 	)
 	(wire
 		(pts
@@ -1078,16 +1072,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 64.77) (xy 227.33 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5a622d6-8aeb-4a21-bbcc-9d09061dfd4e")
-	)
-	(wire
-		(pts
 			(xy 57.15 72.39) (xy 57.15 76.2)
 		)
 		(stroke
@@ -1108,7 +1092,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 69.85) (xy 227.33 73.66)
+			(xy 237.49 13.97) (xy 237.49 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1102,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 81.28) (xy 227.33 81.28)
+			(xy 229.87 24.13) (xy 237.49 24.13)
 		)
 		(stroke
 			(width 0)
@@ -1187,7 +1171,7 @@
 		(uuid "36afe704-50fb-4ecd-88f6-e3b123bdf33d")
 	)
 	(label "PIN_7"
-		(at 187.96 81.28 0)
+		(at 198.12 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1256,6 +1240,16 @@
 		)
 		(uuid "d53a1cd5-d2cf-4907-a6e8-f697ae8f6719")
 	)
+	(label "PIN_5"
+		(at 199.39 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e30dda14-8493-4034-9cb6-bc244ace6e1f")
+	)
 	(hierarchical_label "VCC"
 		(shape input)
 		(at 190.5 59.69 90)
@@ -1280,7 +1274,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 227.33 53.34 0)
+		(at 229.87 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1291,7 +1285,7 @@
 	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 234.95 81.28 0)
+		(at 245.11 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1296,7 @@
 	)
 	(hierarchical_label "VCC"
 		(shape input)
-		(at 227.33 69.85 0)
+		(at 237.49 13.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1313,7 +1307,7 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 234.95 64.77 0)
+		(at 237.49 44.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1390,7 +1384,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 227.33 60.96 0)
+		(at 229.87 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1399,7 +1393,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b55b37b-1b46-4215-8e8b-2d5f5854483e")
 		(property "Reference" "R9"
-			(at 229.87 59.6899 0)
+			(at 232.41 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,7 +1402,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 229.87 62.2299 0)
+			(at 232.41 41.9099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1417,7 +1411,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 225.552 60.96 90)
+			(at 228.092 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1426,7 +1420,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 60.96 0)
+			(at 229.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1435,7 +1429,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 60.96 0)
+			(at 229.87 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,16 +1674,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 227.33 77.47 0)
+		(at 237.49 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b13389b1-ca8b-465f-87e6-bd6e41414473")
 		(property "Reference" "R10"
-			(at 229.87 76.1999 0)
+			(at 240.03 19.0499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1698,7 +1691,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 229.87 78.7399 0)
+			(at 240.03 21.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1707,7 +1700,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 225.552 77.47 90)
+			(at 235.712 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1716,7 +1709,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 227.33 77.47 0)
+			(at 237.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1725,7 +1718,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 227.33 77.47 0)
+			(at 237.49 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1750,7 +1743,7 @@
 	)
 	(symbol
 		(lib_id "CAS-120A1:CAS-120A1")
-		(at 194.31 81.28 0)
+		(at 204.47 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1759,7 +1752,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7dcea27-75ed-4d8f-9495-29e3737f40b9")
 		(property "Reference" "S2"
-			(at 207.01 73.66 0)
+			(at 217.17 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +1760,7 @@
 			)
 		)
 		(property "Value" "CAS-120A1"
-			(at 207.01 76.2 0)
+			(at 217.17 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1768,7 @@
 			)
 		)
 		(property "Footprint" "CAS120A1"
-			(at 215.9 176.2 0)
+			(at 226.06 119.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1785,7 +1778,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 215.9 276.2 0)
+			(at 226.06 219.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1795,7 +1788,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Slide Switch Single Pole Double Throw (SPDT) 100 (Non-Switching) mA, 100 (Switching) mA Slide"
-			(at 194.31 81.28 0)
+			(at 204.47 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1804,7 +1797,7 @@
 			)
 		)
 		(property "Height" "2.5"
-			(at 215.9 476.2 0)
+			(at 226.06 419.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1807,7 @@
 			)
 		)
 		(property "Mouser Part Number" "229-CAS-120A1"
-			(at 215.9 576.2 0)
+			(at 226.06 519.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1817,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Components/CAS-120A1?qs=XeJtXLiO41SLHVe%252BE1BF5w%3D%3D"
-			(at 215.9 676.2 0)
+			(at 226.06 619.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1827,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nidec Copal"
-			(at 215.9 776.2 0)
+			(at 226.06 719.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1837,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CAS-120A1"
-			(at 215.9 876.2 0)
+			(at 226.06 819.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1866,7 @@
 	)
 	(symbol
 		(lib_id "CAS-120A1:CAS-120A1")
-		(at 195.58 64.77 0)
+		(at 204.47 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1882,7 +1875,7 @@
 		(fields_autoplaced yes)
 		(uuid "f05fae26-e7bd-4eb6-8bc1-856524a0d2cd")
 		(property "Reference" "S1"
-			(at 208.28 57.15 0)
+			(at 217.17 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1883,7 @@
 			)
 		)
 		(property "Value" "CAS-120A1"
-			(at 208.28 59.69 0)
+			(at 217.17 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1891,7 @@
 			)
 		)
 		(property "Footprint" "CAS120A1"
-			(at 217.17 159.69 0)
+			(at 226.06 139.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1901,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 217.17 259.69 0)
+			(at 226.06 239.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1918,7 +1911,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Slide Switch Single Pole Double Throw (SPDT) 100 (Non-Switching) mA, 100 (Switching) mA Slide"
-			(at 195.58 64.77 0)
+			(at 204.47 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1927,7 +1920,7 @@
 			)
 		)
 		(property "Height" "2.5"
-			(at 217.17 459.69 0)
+			(at 226.06 439.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,7 +1930,7 @@
 			)
 		)
 		(property "Mouser Part Number" "229-CAS-120A1"
-			(at 217.17 559.69 0)
+			(at 226.06 539.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1940,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Components/CAS-120A1?qs=XeJtXLiO41SLHVe%252BE1BF5w%3D%3D"
-			(at 217.17 659.69 0)
+			(at 226.06 639.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1957,7 +1950,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nidec Copal"
-			(at 217.17 759.69 0)
+			(at 226.06 739.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,7 +1960,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CAS-120A1"
-			(at 217.17 859.69 0)
+			(at 226.06 839.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
