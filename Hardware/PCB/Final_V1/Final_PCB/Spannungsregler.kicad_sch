@@ -1341,7 +1341,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "R1")
 					(unit 1)
 				)
@@ -1413,7 +1413,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -1489,7 +1489,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "C2")
 					(unit 1)
 				)
@@ -1565,7 +1565,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "R2")
 					(unit 1)
 				)
@@ -1637,7 +1637,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "#PWR02")
 					(unit 1)
 				)
@@ -1713,7 +1713,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "L1")
 					(unit 1)
 				)
@@ -1785,7 +1785,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "#PWR05")
 					(unit 1)
 				)
@@ -1886,7 +1886,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "U1")
 					(unit 1)
 				)
@@ -1958,7 +1958,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "#PWR03")
 					(unit 1)
 				)
@@ -2034,7 +2034,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "C1")
 					(unit 1)
 				)
@@ -2106,7 +2106,7 @@
 		)
 		(instances
 			(project "Spannungsregler"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/7394304d-0f66-41f8-88b5-0fd9ba70f1d9"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/d799d98f-baa1-4663-b197-1e0a5357dff3"
 					(reference "#PWR01")
 					(unit 1)
 				)

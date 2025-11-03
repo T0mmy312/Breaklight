@@ -752,6 +752,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -856,7 +981,7 @@
 	)
 	(text "Switches"
 		(exclude_from_sim no)
-		(at 215.392 33.02 0)
+		(at 219.202 58.42 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -885,7 +1010,7 @@
 		(uuid "485460a4-0d3a-45d9-89a9-f6faf6c2223b")
 	)
 	(junction
-		(at 229.87 44.45)
+		(at 233.68 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "031ec293-66a2-4a51-b3fd-82fe2d04c06b")
@@ -897,7 +1022,7 @@
 		(uuid "a338b161-e22e-4146-a93c-27cbb2c82aca")
 	)
 	(junction
-		(at 237.49 24.13)
+		(at 241.3 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "db5b862c-c108-4e34-98ac-2c0a0c46d18f")
@@ -912,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 24.13) (xy 204.47 24.13)
+			(xy 201.93 49.53) (xy 208.28 49.53)
 		)
 		(stroke
 			(width 0)
@@ -922,7 +1047,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 24.13) (xy 245.11 24.13)
+			(xy 241.3 49.53) (xy 248.92 49.53)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 44.45) (xy 237.49 44.45)
+			(xy 233.68 69.85) (xy 241.3 69.85)
 		)
 		(stroke
 			(width 0)
@@ -982,7 +1107,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 44.45) (xy 204.47 44.45)
+			(xy 203.2 69.85) (xy 208.28 69.85)
 		)
 		(stroke
 			(width 0)
@@ -992,7 +1117,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 33.02) (xy 229.87 36.83)
+			(xy 233.68 58.42) (xy 233.68 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1092,7 +1217,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 13.97) (xy 237.49 16.51)
+			(xy 241.3 39.37) (xy 241.3 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +1227,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 24.13) (xy 237.49 24.13)
+			(xy 233.68 49.53) (xy 241.3 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1171,7 +1296,7 @@
 		(uuid "36afe704-50fb-4ecd-88f6-e3b123bdf33d")
 	)
 	(label "PIN_7"
-		(at 198.12 24.13 0)
+		(at 201.93 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1241,7 +1366,7 @@
 		(uuid "d53a1cd5-d2cf-4907-a6e8-f697ae8f6719")
 	)
 	(label "PIN_5"
-		(at 199.39 44.45 0)
+		(at 203.2 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1250,42 +1375,9 @@
 		)
 		(uuid "e30dda14-8493-4034-9cb6-bc244ace6e1f")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 190.5 59.69 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "592be1f1-f938-4f18-9b37-6209c28980c0")
-	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 158.75 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "594f96a1-d020-44f8-8623-9be96ab62655")
-	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 229.87 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cf6b675a-bd51-47dc-b275-d36e15d3ed68")
-	)
 	(hierarchical_label "SDA"
 		(shape input)
-		(at 245.11 24.13 0)
+		(at 248.92 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1294,20 +1386,9 @@
 		)
 		(uuid "d2731a65-0225-411a-acca-cbf6f5632f08")
 	)
-	(hierarchical_label "VCC"
-		(shape input)
-		(at 237.49 13.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dbb1b43e-f1a9-430f-b572-e5ddfce3996c")
-	)
 	(hierarchical_label "SCL"
 		(shape input)
-		(at 237.49 44.45 0)
+		(at 241.3 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1383,8 +1464,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 233.68 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30227c06-7f44-4f90-8a16-d45aa2e9759e")
+		(property "Reference" "#PWR043"
+			(at 233.68 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 233.68 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 233.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61d91806-df1c-4d4e-a09a-3ea665ac4eb0")
+		)
+		(instances
+			(project ""
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/12cb592c-1de0-461a-9b62-a8d4c4aca561"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 241.3 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53d52059-207a-4946-adfe-8976fb489f09")
+		(property "Reference" "#PWR045"
+			(at 241.3 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 241.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 241.3 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3dd5f72-ab6a-4f55-8c0c-0f377e374dc9")
+		)
+		(instances
+			(project "Final_PCB"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/12cb592c-1de0-461a-9b62-a8d4c4aca561"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 229.87 40.64 0)
+		(at 233.68 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1393,7 +1606,7 @@
 		(fields_autoplaced yes)
 		(uuid "5b55b37b-1b46-4215-8e8b-2d5f5854483e")
 		(property "Reference" "R9"
-			(at 232.41 39.3699 0)
+			(at 236.22 64.7699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1402,7 +1615,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 232.41 41.9099 0)
+			(at 236.22 67.3099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1411,7 +1624,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 228.092 40.64 90)
+			(at 231.902 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1420,7 +1633,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 229.87 40.64 0)
+			(at 233.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1429,7 +1642,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 229.87 40.64 0)
+			(at 233.68 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1591,6 +1804,138 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 158.75 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b85537b-69c2-44f6-8b60-20735b16fc6b")
+		(property "Reference" "#PWR046"
+			(at 158.75 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 158.75 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 158.75 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55afdbe3-2e63-4bc3-8fed-a840175182d2")
+		)
+		(instances
+			(project "Final_PCB"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/12cb592c-1de0-461a-9b62-a8d4c4aca561"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 190.5 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9bd103cd-fa53-473c-bd0a-54c77ffe1011")
+		(property "Reference" "#PWR047"
+			(at 190.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 190.5 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 190.5 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28837ddd-8a68-490c-bc79-01e22cd63a42")
+		)
+		(instances
+			(project "Final_PCB"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/12cb592c-1de0-461a-9b62-a8d4c4aca561"
+					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
 		(at 161.29 41.91 0)
 		(unit 1)
@@ -1674,7 +2019,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 237.49 20.32 0)
+		(at 241.3 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1682,7 +2027,7 @@
 		(dnp no)
 		(uuid "b13389b1-ca8b-465f-87e6-bd6e41414473")
 		(property "Reference" "R10"
-			(at 240.03 19.0499 0)
+			(at 243.84 44.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +2036,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 240.03 21.5899 0)
+			(at 243.84 46.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1700,7 +2045,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 235.712 20.32 90)
+			(at 239.522 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +2054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 237.49 20.32 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +2063,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 237.49 20.32 0)
+			(at 241.3 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1743,7 +2088,7 @@
 	)
 	(symbol
 		(lib_id "CAS-120A1:CAS-120A1")
-		(at 204.47 24.13 0)
+		(at 208.28 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1752,7 +2097,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7dcea27-75ed-4d8f-9495-29e3737f40b9")
 		(property "Reference" "S2"
-			(at 217.17 16.51 0)
+			(at 220.98 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +2105,7 @@
 			)
 		)
 		(property "Value" "CAS-120A1"
-			(at 217.17 19.05 0)
+			(at 220.98 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1768,7 +2113,7 @@
 			)
 		)
 		(property "Footprint" "CAS120A1"
-			(at 226.06 119.05 0)
+			(at 229.87 144.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1778,7 +2123,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 226.06 219.05 0)
+			(at 229.87 244.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1788,7 +2133,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Slide Switch Single Pole Double Throw (SPDT) 100 (Non-Switching) mA, 100 (Switching) mA Slide"
-			(at 204.47 24.13 0)
+			(at 208.28 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +2142,7 @@
 			)
 		)
 		(property "Height" "2.5"
-			(at 226.06 419.05 0)
+			(at 229.87 444.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1807,7 +2152,7 @@
 			)
 		)
 		(property "Mouser Part Number" "229-CAS-120A1"
-			(at 226.06 519.05 0)
+			(at 229.87 544.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1817,7 +2162,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Components/CAS-120A1?qs=XeJtXLiO41SLHVe%252BE1BF5w%3D%3D"
-			(at 226.06 619.05 0)
+			(at 229.87 644.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1827,7 +2172,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nidec Copal"
-			(at 226.06 719.05 0)
+			(at 229.87 744.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +2182,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CAS-120A1"
-			(at 226.06 819.05 0)
+			(at 229.87 844.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +2211,7 @@
 	)
 	(symbol
 		(lib_id "CAS-120A1:CAS-120A1")
-		(at 204.47 44.45 0)
+		(at 208.28 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1875,7 +2220,7 @@
 		(fields_autoplaced yes)
 		(uuid "f05fae26-e7bd-4eb6-8bc1-856524a0d2cd")
 		(property "Reference" "S1"
-			(at 217.17 36.83 0)
+			(at 220.98 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +2228,7 @@
 			)
 		)
 		(property "Value" "CAS-120A1"
-			(at 217.17 39.37 0)
+			(at 220.98 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1891,7 +2236,7 @@
 			)
 		)
 		(property "Footprint" "CAS120A1"
-			(at 226.06 139.37 0)
+			(at 229.87 164.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1901,7 +2246,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"
-			(at 226.06 239.37 0)
+			(at 229.87 264.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1911,7 +2256,7 @@
 			)
 		)
 		(property "Description" "Surface Mount Slide Switch Single Pole Double Throw (SPDT) 100 (Non-Switching) mA, 100 (Switching) mA Slide"
-			(at 204.47 44.45 0)
+			(at 208.28 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1920,7 +2265,7 @@
 			)
 		)
 		(property "Height" "2.5"
-			(at 226.06 439.37 0)
+			(at 229.87 464.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1930,7 +2275,7 @@
 			)
 		)
 		(property "Mouser Part Number" "229-CAS-120A1"
-			(at 226.06 539.37 0)
+			(at 229.87 564.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1940,7 +2285,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nidec-Components/CAS-120A1?qs=XeJtXLiO41SLHVe%252BE1BF5w%3D%3D"
-			(at 226.06 639.37 0)
+			(at 229.87 664.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1950,7 +2295,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Nidec Copal"
-			(at 226.06 739.37 0)
+			(at 229.87 764.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1960,7 +2305,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CAS-120A1"
-			(at 226.06 839.37 0)
+			(at 229.87 864.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
