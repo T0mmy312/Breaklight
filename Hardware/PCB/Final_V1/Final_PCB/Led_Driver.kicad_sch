@@ -2903,6 +2903,73 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
+		(at 125.73 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "173de24b-0ccc-4443-abb0-2db9cd57a577")
+		(property "Reference" "#PWR050"
+			(at 129.54 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 121.92 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 125.73 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e99f21b-aca4-4a36-9d43-78396c8b5662")
+		)
+		(instances
+			(project "Final_PCB"
+				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/31097afd-7b19-4340-a34a-5b2b647d4078"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
 		(at 49.53 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5037,73 +5104,6 @@
 			(project "Final_PCB"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/31097afd-7b19-4340-a34a-5b2b647d4078"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 125.73 86.36 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "afb3257d-f1a2-4693-975d-a404839e49e4")
-		(property "Reference" "#PWR030"
-			(at 119.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 86.3599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 125.73 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c292238e-3d8a-4cf9-a013-2344a862fc1b")
-		)
-		(instances
-			(project "Final_PCB"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/31097afd-7b19-4340-a34a-5b2b647d4078"
-					(reference "#PWR030")
 					(unit 1)
 				)
 			)
