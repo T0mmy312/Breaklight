@@ -4155,7 +4155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSE65FBBDA11"
+		(property "Footprint" "custom:LSE65FBBDA11"
 			(at 208.28 197.79 0)
 			(effects
 				(font
@@ -4548,7 +4548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSE65FBBDA11"
+		(property "Footprint" "custom:LSE65FBBDA11"
 			(at 207.01 247.32 0)
 			(effects
 				(font
@@ -4934,7 +4934,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P640X110-29N"
+		(property "Footprint" "custom:SOP65P640X110-29N"
 			(at 162.56 178.74 0)
 			(effects
 				(font
@@ -5203,7 +5203,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSE65FBBDA11"
+		(property "Footprint" "custom:LSE65FBBDA11"
 			(at 207.01 229.54 0)
 			(effects
 				(font
@@ -5456,7 +5456,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LSE65FBBDA11"
+		(property "Footprint" "custom:LSE65FBBDA11"
 			(at 208.28 213.03 0)
 			(effects
 				(font

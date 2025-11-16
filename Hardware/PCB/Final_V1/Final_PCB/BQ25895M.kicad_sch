@@ -2451,6 +2451,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 114.3) (xy 133.35 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1c2a7e1-1cbd-4a24-90eb-cdff233b5b4f")
+	)
+	(wire
+		(pts
 			(xy 147.32 96.52) (xy 160.02 96.52)
 		)
 		(stroke
@@ -2520,7 +2530,7 @@
 		(uuid "755ecf2a-e335-4a1c-b473-4e0f0b0110a6")
 	)
 	(label "TS"
-		(at 133.35 113.03 0)
+		(at 133.35 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2909,7 +2919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P400X400X80-25N-D"
+		(property "Footprint" "custom:QFN50P400X400X80-25N-D"
 			(at 142.24 172.39 0)
 			(effects
 				(font
