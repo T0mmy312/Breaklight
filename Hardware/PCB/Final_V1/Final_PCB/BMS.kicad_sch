@@ -935,7 +935,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 133.35) (xy 152.4 133.35)
+			(xy 168.91 133.35) (xy 152.4 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1177,7 +1177,7 @@
 	)
 	(hierarchical_label "BATT-"
 		(shape input)
-		(at 165.1 133.35 0)
+		(at 168.91 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
