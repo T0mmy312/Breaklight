@@ -1691,7 +1691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P798X216-8N"
+		(property "Footprint" "custom:SOIC127P798X216-8N"
 			(at 180.34 159.69 0)
 			(effects
 				(font
@@ -2112,7 +2112,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAS120A1"
+		(property "Footprint" "custom:CAS120A1"
 			(at 229.87 144.45 0)
 			(effects
 				(font
@@ -2235,7 +2235,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CAS120A1"
+		(property "Footprint" "custom:CAS120A1"
 			(at 229.87 164.77 0)
 			(effects
 				(font

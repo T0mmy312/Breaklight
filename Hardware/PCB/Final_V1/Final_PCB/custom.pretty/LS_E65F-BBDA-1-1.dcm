@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LS_E65F-BBDA-1-1
+D 2.15 V Red LED PLCC 4 SMD,Osram Opto Power TOPLED Lens LS E65F-BBDA-1-1
+K
+F https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/406/LS_E65F_Rev1.2.pdf
+$ENDCMP
+#
+#End Doc Library

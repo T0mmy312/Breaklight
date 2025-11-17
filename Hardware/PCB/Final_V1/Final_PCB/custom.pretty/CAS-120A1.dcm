@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CAS-120A1
+D Surface Mount Slide Switch Single Pole Double Throw (SPDT) 100 (Non-Switching) mA, 100 (Switching) mA Slide
+K
+F https://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf
+$ENDCMP
+#
+#End Doc Library

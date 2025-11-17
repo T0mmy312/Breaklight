@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ATTINY85-20SFR
+D 8-bit Microcontrollers - MCU 4KB 256BADC 20MHZ GRN
+K
+F https://componentsearchengine.com/Datasheets/1/ATTINY85-20SFR.pdf
+$ENDCMP
+#
+#End Doc Library

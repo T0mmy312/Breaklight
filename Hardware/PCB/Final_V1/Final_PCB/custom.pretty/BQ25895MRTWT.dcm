@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ25895MRTWT
+D Single Cell 5A Fast Charger MaxCharge Technology for High Input Voltage and 3.1A Boost
+K
+F http://www.ti.com/lit/ds/symlink/bq25895m.pdf
+$ENDCMP
+#
+#End Doc Library
