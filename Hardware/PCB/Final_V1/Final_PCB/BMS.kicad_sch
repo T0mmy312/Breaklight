@@ -1361,7 +1361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "custom:X2QFN"
+		(property "Footprint" "custom:QFN50P150X150X40-8N"
 			(at 129.794 90.678 0)
 			(effects
 				(font
@@ -1450,7 +1450,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fooprints:MOSFET_BSC093N04LSGATMA1"
+		(property "Footprint" "custom:MOSFET_BSC093N04LSGATMA1"
 			(at 140.97 99.06 0)
 			(effects
 				(font
@@ -1660,7 +1660,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fooprints:MOSFET_BSC093N04LSGATMA1"
+		(property "Footprint" "custom:MOSFET_BSC093N04LSGATMA1"
 			(at 157.48 99.06 0)
 			(effects
 				(font
