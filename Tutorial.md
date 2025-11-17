@@ -96,9 +96,11 @@ This will mark the conflicts as resolved, and you can then commit and push like 
 If you simply want to use one of the changes, you can do this:
 
 ``` sh
-git checkout --ours main.cpp # use your version of main.cpp
-git chackout --theirs main.cpp # use the version from the commit your pulling
+git checkout --ours main.cpp # use the version from the commit your pulling
+git chackout --theirs main.cpp # use your version of main.cpp
 ```
+
+It may seem a bit wierd that `--theirs` is the version you stashed, but because you first stashed and temporaily removed the changes then pulled successfully, the incoming change is then the change applied from your stash which is labled as `--theirs`.
 
 Once you’ve chosen for each conflicting file, just add your changes to mark the conflict as resolved and commit like before.
 
@@ -109,7 +111,7 @@ When you want to make a big change or something independent that you want to add
 ``` sh
 git branch yourBranch # create a branch with the name yourBranch
 git switch yourBranch # go to the branch yourBranch
-```
+``` 
 
 Now you should be on your new branch.
 
