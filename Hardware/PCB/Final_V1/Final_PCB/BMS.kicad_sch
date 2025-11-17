@@ -1361,7 +1361,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Fooprints:QFN50P150X150X40-8N"
+		(property "Footprint" "custom:X2QFN"
 			(at 129.794 90.678 0)
 			(effects
 				(font
