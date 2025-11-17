@@ -2950,6 +2950,7 @@
 		)
 		(property "Height" "0.8"
 			(at 142.24 472.39 0)
+			(show_name yes)
 			(effects
 				(font
 					(size 1.27 1.27)
