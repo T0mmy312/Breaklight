@@ -811,7 +811,7 @@
 		(at 107.95 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2625cfa3-6c22-49e1-ac45-05dcb0be0018")
+		(uuid "03a83883-18ed-4186-9ef1-8c170370b8a3")
 	)
 	(junction
 		(at 109.22 96.52)
@@ -895,16 +895,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 133.35) (xy 115.57 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e6146ef-207d-4efa-bb67-355a0147ef0b")
-	)
-	(wire
-		(pts
 			(xy 100.33 120.65) (xy 100.33 114.3)
 		)
 		(stroke
@@ -922,6 +912,16 @@
 			(type default)
 		)
 		(uuid "4e742837-a314-4da8-9743-fbd7c2aa0c97")
+	)
+	(wire
+		(pts
+			(xy 107.95 133.35) (xy 116.84 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ede31c-f57f-4283-a341-27a577efa44e")
 	)
 	(wire
 		(pts
@@ -1490,76 +1490,6 @@
 			(project "Final_PCB"
 				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/46e274db-b5db-4871-9e0a-2907fab034b3"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 111.76 133.35 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5d0b066c-f4dc-442f-9c89-d58e0e8f86ec")
-		(property "Reference" "RSENS1"
-			(at 113.284 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "322"
-			(at 115.824 131.572 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric"
-			(at 111.76 135.128 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 111.76 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31b2d871-f836-4bdc-8df1-7b91c055f49b")
-		)
-		(pin "2"
-			(uuid "d6a50fb1-be1e-4b89-a245-9eddb7096297")
-		)
-		(instances
-			(project "Final_PCB"
-				(path "/3cedac76-cdf6-4427-9720-a412bd9af7e2/46e274db-b5db-4871-9e0a-2907fab034b3"
-					(reference "RSENS1")
 					(unit 1)
 				)
 			)
