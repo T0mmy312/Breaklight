@@ -2269,7 +2269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
 			(at 109.22 81.28 0)
 			(effects
 				(font
