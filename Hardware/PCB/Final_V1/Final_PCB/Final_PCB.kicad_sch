@@ -4,6 +4,10 @@
 	(generator_version "9.0")
 	(uuid "3cedac76-cdf6-4427-9720-a412bd9af7e2")
 	(paper "A4")
+	(title_block
+		(title "Bremslicht 3")
+		(company "Emirhan Yeler")
+	)
 	(lib_symbols)
 	(junction
 		(at 93.98 48.26)
