@@ -12,7 +12,7 @@
 #define BEGIN_DEBUG Wire.begin()
 #define DB_PRINT(message) if (1) { \
         Wire.beginTransmission(DEBUG_I2C_ADDR); \
-        Wire.write(message); \
+        Wire.write(String(message).c_str()); \
         Wire.endTransmission(); \
     }
 #define DB_PRINTLN(message) if (1) { \
