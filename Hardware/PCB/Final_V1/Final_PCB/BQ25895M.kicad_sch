@@ -1727,16 +1727,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 115.57) (xy 81.28 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09cc5485-921c-4596-8702-46a2b29dc0b9")
-	)
-	(wire
-		(pts
 			(xy 81.28 125.73) (xy 81.28 123.19)
 		)
 		(stroke
@@ -2224,6 +2214,16 @@
 			(type default)
 		)
 		(uuid "dc6ae85d-7fb6-4872-a77d-a326e7c646f8")
+	)
+	(wire
+		(pts
+			(xy 81.28 113.03) (xy 81.28 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e04206e1-8146-4400-8997-7efcf616a2f8")
 	)
 	(wire
 		(pts
@@ -2853,7 +2853,7 @@
 	)
 	(hierarchical_label "VBus"
 		(shape input)
-		(at 81.28 113.3627 90)
+		(at 81.28 113.03 90)
 		(effects
 			(font
 				(size 1.27 1.27)
