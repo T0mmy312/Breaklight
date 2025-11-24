@@ -109,10 +109,18 @@
         ],
         [
           "clearance|144650000|124375000|3e459774-110b-4a76-92c2-c0651b4464c4|fe0d0c22-7c10-4e5d-8d58-80a5780b58d6",
-          ""
+          "your mama"
         ],
         [
           "clearance|144650000|125725000|568230de-f651-4803-82fc-15dc69111615|17a5b1d6-3d57-449b-ab94-b3192f45cb40",
+          ""
+        ],
+        [
+          "silk_edge_clearance|137505000|130500000|753505cd-bab8-48af-8ad2-6b8a5a617b6a|f1b718d1-e8cf-4037-a2b5-24137ad31ca4",
+          ""
+        ],
+        [
+          "silk_edge_clearance|146695000|130500000|753505cd-bab8-48af-8ad2-6b8a5a617b6a|23b0563b-e82d-41d0-9479-42bf41828517",
           ""
         ]
       ],
@@ -197,7 +205,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -246,6 +254,7 @@
       ],
       "track_widths": [
         0.0,
+        0.25,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -560,7 +569,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../../../../../../Desktop/",
+      "plot": "../../../../../../yourmama/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
