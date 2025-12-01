@@ -1,9 +1,0 @@
-Manufacturer=TAIYO YUDEN
-PartNumber=LBM2016T2R2J
-PartCategory=Inductor
-PackageCategory=Inductors Chip
-PinCount=2
-Version=1.1
-Released=2019-10-08 14:36:13
-Downloaded=2025-11-03 14:36:05
-3D=Y

@@ -1,9 +1,0 @@
-Manufacturer=Texas Instruments
-PartNumber=TPS63000IDRCRQ1
-PartCategory=Integrated Circuit
-PackageCategory=Other
-PinCount=15
-Version=1.4
-Released=2021-09-30 03:49:33
-Downloaded=2025-11-03 13:34:53
-3D=Y
